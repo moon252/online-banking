@@ -1,0 +1,38 @@
+
+.body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-container{
+    background-color: rgb(29, 28, 28);
+}
+.about-container{
+    background-color: rgb(96, 146, 146);
+    /* font-size: 1.5vw; */
+}
+
+.circle{
+    background-color: rgb(247, 128, 128);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.w-100 {
+    width: 100% !important;
+    height: 87vh;
+  }
+
+  body{
+    margin: 3px;;;
+  }
+  .font_title{
+    font-size: 2.5vw;
+  }
+  .footer-container{
+    background-color: rgb(55, 88, 88);
+  }
+
+  .col{
+    /* border: 2px solid rgb(151, 27, 27);  */
+    /* padding: 2px;  */
+} 
