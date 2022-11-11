@@ -27,12 +27,13 @@
   }
   .font_title{
     font-size: 2.5vw;
+    /* responsive */
   }
   .footer-container{
     background-color: rgb(55, 88, 88);
   }
 
-  .col{
+  /* .col{
     /* border: 2px solid rgb(151, 27, 27);  */
-    /* padding: 2px;  */
-} 
+    /* padding: 2px;  
+}  */
