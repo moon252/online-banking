@@ -8,6 +8,7 @@
   <!-- bootstrap css -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- font -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
@@ -31,7 +32,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav m-auto">
           <li class="nav-item p-2">
-            <a class="nav-link active" href="#home">HOME</a>
+            <a class="nav-link active" href="#home" onclick="reloadPage()">HOME</a>
           </li>
           <li class="nav-item dropdown p-2">
             <a class="nav-link dropdown-toggle" href="#acc" role="button" data-bs-toggle="dropdown"
@@ -39,13 +40,13 @@
               ACCOUNT
             </a>
             <ul class="dropdown-menu dropdown-menu-dark">
-              <li><a class="dropdown-item" href="form.html">Sign Up</a></li>
-              <li><a class="dropdown-item" href="#">Customer Sign In</a></li>
-              <li><a class="dropdown-item" href="#">Admin Sign In</a></li>
+              <li><a class="dropdown-item" href="./sign_up_form.html">Sign Up</a></li>
+              <li><a class="dropdown-item" href="./Customer_sign_in_form.html">Customer Sign In</a></li>
+              <li><a class="dropdown-item" href="./Admin_sign_in_form.html">Admin Sign In</a></li>
             </ul>
           </li>
           <li class="nav-item p-2">
-            <a class="nav-link" href="#services">SERVICES</a>
+            <a class="nav-link" href="services.html">SERVICES</a>
           </li>
           <li class="nav-item p-2">
             <a class="nav-link" href="#privacy">PRIVACY</a>
@@ -221,8 +222,8 @@
                 LogIn
               </a>
               <ul class="dropdown-menu dropdown-menu-dark">
-                <li><a class="dropdown-item" href="#">Customer Sign In</a></li>
-                <li><a class="dropdown-item" href="#">Admin Sign In</a></li>
+                <li><a class="dropdown-item" href="Customer_sign_in_form.html">Customer Sign In</a></li>
+                <li><a class="dropdown-item" href="Admin_sign_in_form.html">Admin Sign In</a></li>
               </ul>
             </li>
 
@@ -231,16 +232,16 @@
           </ul>
         </div>
       </div>
-      <div class="col-md-2 footer-social animated fadeInDown">
+      <div class="col-md-2">
         <h4>Follow Us</h4>
         <ul>
-          <li><a href="#" style="color: black;">Facebook</a></li>
-          <li><a href="#" style="color: black;">Twitter</a></li>
-          <li><a href="#" style="color: black;">Instagram</a></li>
+          <li><a href="#" class="fa fa-facebook"></a></li>
+          <li><a href="#" class="fa fa-twitter"></a></li>
+          <li><a href="#" class="fa fa-instagram"></a></li>
         </ul>
       </div>
 
-      <div class="col-md-2 text-md-left">
+      <div class="col-md-2 text-md-left footer-nav">
         <h4>Contact Info</h4>
         <ul class="ps-0">
           <li class="list-group-item">Address : xxxxxxxxx </li>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="well text-center">Registration Form</h1>
+        <div class="col-lg-12 well">
+            <div class="row">
+                <form>
+                    <div class="col-sm-12">
+                        <div class="row">
+                            <div class="col-sm-6 form-group">
+                                <label>First Name</label>
+                                <input type="text" placeholder="Enter First Name Here.." class="form-control">
+                            </div>
+                            <div class="col-sm-6 form-group">
+                                <label>Last Name</label>
+                                <input type="text" placeholder="Enter Last Name Here.." class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Address</label>
+                            <textarea placeholder="Enter Address Here.." rows="3" class="form-control"></textarea>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4 form-group">
+                                <label>City</label>
+                                <input type="text" placeholder="Enter City Name Here.." class="form-control">
+                            </div>
+
+                            <div class="col-sm-4 form-group">
+                                <label>Zip</label>
+                                <input type="text" placeholder="Enter Zip Code Here.." class="form-control">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 form-group">
+
+                                <!-- <input type="text" placeholder="Enter Designation Here.." class="form-control"> -->
+                                <div class="form-floating">
+                                    <select class="form-select" id="floatingSelect"
+                                        aria-label="Floating label select example">
+                                        <option selected>Choose Account Type</option>
+                                        <option value="1">Savings Account</option>
+                                        <option value="2">Checking Account</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- <div class="col-sm-6 form-group">
+                                <label>Company</label>
+                                <input type="text" placeholder="Enter Company Name Here.." class="form-control">
+                            </div> -->
+                        </div>
+                        <div class="form-group">
+                            <label>Phone Number</label>
+                            <input type="text" placeholder="Enter Phone Number Here.." class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Email Address</label>
+                            <input type="text" placeholder="Enter Email Address Here.." class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Upload Image</label>
+                            <div class="input-group">
+                                <input type="file" class="form-control" id="inputGroupFile04"
+                                    aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                                <button class="btn1" type="button" id="inputGroupFileAddon04">Upload</button>
+                            </div>
+                        </div>
+
+                        <button type="button" class="btn btn-lg btn-info">Submit</button>
+                        <div class="pt-3 text-center">
+                            <a href="index.html">GO Back TO Home Page</a>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
